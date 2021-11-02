@@ -52,7 +52,6 @@ playBtn.addEventListener('click', function() {
 // creare n elementi div con classe square, in base al numero di celle totali
     createSquares(totSquares);
 
-
 });
 
 // funzioni
@@ -69,7 +68,7 @@ function createSquares(num) {
         createSquare.style.height = `calc(100% / ${rowSquares})`;
         // creare un eventlistener, che al click cambi il colore di sfondo dell'elemento cliccato
         createSquare.addEventListener('click', function() {
-            createSquare.classList.add('active');
+        createSquare.classList.add('active');
         });
         // inserire la cella nel wrapGrid
         wrapGrid.append(createSquare);
