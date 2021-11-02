@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav,
+footer {
+    padding: 15px 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    margin-right: 20px;
+}
+
+select {
+    width: 150px;
+}
+button {
+    width: 75px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+text-align: left;
+line-height: 100%;
+}
